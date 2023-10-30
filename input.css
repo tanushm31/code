@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-container {
+	display: flex;
+	justify-content: center; /* Horizontally center */
+	align-items: center; /* Vertically center */
+	width: 100%; /* Ensure the container spans the entire viewport width */
+	height: 100vh; /* Ensure the container spans the entire viewport height */
+}
+
+.background-image {
+	max-width: 300%; /* Ensure the SVG does not exceed its container */
+	max-height: 300%; /* Ensure the SVG does not exceed its container */
+}
